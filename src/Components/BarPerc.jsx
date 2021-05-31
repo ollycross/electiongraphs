@@ -18,6 +18,7 @@ const BarPerc = ({data, year}) => {
 
     return <ResponsiveBar
         data={barData}
+        maxValue={60}
         keys={['share']}
         indexBy="party"
         margin={{top: 50, right: 130, bottom: 50, left: 60}}
@@ -46,20 +47,6 @@ const BarPerc = ({data, year}) => {
                 spacing: 10
             }
         ]}
-        fill={[
-            {
-                match: {
-                    id: 'fries'
-                },
-                id: 'dots'
-            },
-            {
-                match: {
-                    id: 'sandwich'
-                },
-                id: 'lines'
-            }
-        ]}
         borderColor={{from: 'color', modifiers: [['darker', 1.6]]}}
         axisTop={null}
         axisRight={null}
@@ -77,7 +64,7 @@ const BarPerc = ({data, year}) => {
             tickRotation: 0,
             legend: 'share',
             legendPosition: 'middle',
-            legendOffset: -40
+            legendOffset: -40,
         }}
         labelSkipWidth={12}
         labelSkipHeight={12}

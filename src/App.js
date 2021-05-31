@@ -49,7 +49,7 @@ function App() {
 
   const years = processed.map(row => row.election);
 
-  const [year, setYear] = useState(years[0]);
+  const [year, setYear] = useState(years[years.length - 1]);
 
   return (
     <div className="App">
