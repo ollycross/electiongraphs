@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/electiongraphs/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/electiongraphs/static/js/main.35137f21.chunk.js",
+    "main.js.map": "/electiongraphs/static/js/main.35137f21.chunk.js.map",
+    "runtime-main.js": "/electiongraphs/static/js/runtime-main.3e426d2e.js",
+    "runtime-main.js.map": "/electiongraphs/static/js/runtime-main.3e426d2e.js.map",
+    "static/js/2.3a98e752.chunk.js": "/electiongraphs/static/js/2.3a98e752.chunk.js",
+    "static/js/2.3a98e752.chunk.js.map": "/electiongraphs/static/js/2.3a98e752.chunk.js.map",
+    "static/js/3.52032731.chunk.js": "/electiongraphs/static/js/3.52032731.chunk.js",
+    "static/js/3.52032731.chunk.js.map": "/electiongraphs/static/js/3.52032731.chunk.js.map",
+    "index.html": "/electiongraphs/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/electiongraphs/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.3a98e752.chunk.js.LICENSE.txt": "/electiongraphs/static/js/2.3a98e752.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e426d2e.js",
+    "static/js/2.3a98e752.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.35137f21.chunk.js"
+  ]
+}
